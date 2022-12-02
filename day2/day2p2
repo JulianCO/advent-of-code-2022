@@ -1,0 +1,3 @@
+#! /bin/bash
+
+( ./scripts/my_pick_p2 $1; ./scripts/results_p2 $1 ) | ./scripts/total_scores

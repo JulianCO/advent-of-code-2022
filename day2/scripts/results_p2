@@ -1,0 +1,5 @@
+#! /bin/awk -f
+
+/X/ {print "L"}
+/Y/ {print "D"}
+/Z/ {print "W"}

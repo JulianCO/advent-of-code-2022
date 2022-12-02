@@ -1,3 +1,3 @@
 #! /bin/bash
 
-( ./match_scores $1; awk '/X/ {print "1"};/Y/ {print "2"};/Z/ {print "3"};' $1 ) | ../day1/add_lines
+( ./scripts/my_pick_p1 $1; ./scripts/results_p1 $1 ) | ./scripts/total_scores
