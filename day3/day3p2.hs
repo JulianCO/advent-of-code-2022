@@ -20,6 +20,7 @@ letterToPriority c =
     then ord c - ord 'a' + 1
     else ord c - ord 'A' + 27
 
+processChunk :: [[Char]] -> Int
 processChunk = letterToPriority . findCommonElement
 
 main :: IO ()
